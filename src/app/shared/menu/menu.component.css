@@ -1,0 +1,23 @@
+.imgMR{
+    margin-right: 25px;
+    margin-left: 15px;
+}
+
+@media (max-width: 767.98px) {
+   div.HR {
+    visibility: hidden
+  }
+}
+
+@media screen and (min-width: 767.98px) {
+  div.SoloM1{
+     visibility: hidden;
+     position: absolute;
+    }
+}
+
+@media (max-width: 767.98px) {
+  div.SoloM{
+     visibility: hidden
+    }
+}
