@@ -1,12 +1,11 @@
 <div class="SoloM">
-<p-menubar [model]="items">
+<p-menubar [model]="items" >
     <ng-template pTemplate="start">
         <img src="assets/img/logo1.png" height="40" class="p-mr-2 imgMR ">
     </ng-template>
-    <ng-template pTemplate="end">
-        <div class="input-group w-70 HR SearchIP">
-            <input type="search" class="form-control SearchIP" placeholder="Search..." aria-label="Search">
-          </div>           
+    <ng-template pTemplate="end" class="HR SearchIP ">
+        <div class="SerachTA"><input type="search" class="form-control SearchIP" placeholder="Search..." aria-label="Search">   </div>
+                
     </ng-template>
 </p-menubar>
 </div>

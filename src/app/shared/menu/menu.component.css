@@ -3,6 +3,14 @@
     margin-left: 15px;
 }
 
+:host ::ng-deep p-menubarsub {
+  width: 90%;
+}
+
+div.SerachTA{
+float: left !important;
+}
+
 @media (max-width: 767.98px) {
    div.HR {
     visibility: hidden
@@ -18,6 +26,7 @@
 
 @media (max-width: 767.98px) {
   div.SoloM{
-     visibility: hidden
+     visibility: hidden;
+     height: 0px;
     }
 }

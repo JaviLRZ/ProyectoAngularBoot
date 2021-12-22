@@ -58,6 +58,10 @@ export class MenuComponent implements OnInit {
         icon: 'pi pi-comment',
       },
       {
+        icon: 'pi pi-shopping-cart',
+        style: {'margin-left': 'auto'}
+      },
+      {
         icon: 'pi pi-user',
         items:[
           {
@@ -69,19 +73,21 @@ export class MenuComponent implements OnInit {
             label: 'Registrarse',
             icon: 'pi pi-user-plus',
             routerLink: 'articles',
+            
 
-          }]
+          }],
+          
       }
     ];
 
     this.itemsM = [
       {
-        label:'INICIO',
+        // label:'INICIO',
         icon: 'pi pi-home',
         routerLink: 'main'
       },
       {
-        label: 'CARTA',
+        // label: 'CARTA',
         icon: 'pi pi-list',
         items:[
           {
@@ -98,7 +104,7 @@ export class MenuComponent implements OnInit {
           }]
       },
       {
-        label: 'TIENDA',
+        // label: 'TIENDA',
         icon: 'pi pi-shopping-bag',
         items:[
           {
@@ -115,8 +121,11 @@ export class MenuComponent implements OnInit {
           }]
       },
       {
-        label: 'FAQs',
+        // label: 'FAQs',
         icon: 'pi pi-comment',
+      },
+      {
+        icon: 'pi pi-shopping-cart',
       },
       {
         icon: 'pi pi-user',
