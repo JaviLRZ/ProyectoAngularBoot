@@ -19,14 +19,15 @@ float: left !important;
 
 @media screen and (min-width: 767.98px) {
   div.SoloM1{
-     visibility: hidden;
-     position: absolute;
+    visibility: hidden;
+    position: absolute;
     }
 }
 
 @media (max-width: 767.98px) {
   div.SoloM{
-     visibility: hidden;
-     height: 0px;
+    visibility: hidden;
+    height: 0px;
     }
 }
+

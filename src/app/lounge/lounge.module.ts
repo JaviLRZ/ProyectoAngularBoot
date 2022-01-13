@@ -5,6 +5,8 @@ import { PrimeNgModule } from '../prime-ng/prime-ng.module';
 import { BasicasComponent } from './pages/basicas/basicas.component';
 import { MainComponent } from './pages/main/main.component';
 import { ArticlesComponent } from './pages/articles/articles.component';
+import { ComponentesModule } from '../componentes/componentes.module';
+import { SubsComponent } from './pages/subs/subs.component';
 
 
 
@@ -15,16 +17,19 @@ import { ArticlesComponent } from './pages/articles/articles.component';
     BasicasComponent,
     MainComponent,
     ArticlesComponent,
+    SubsComponent,
 
   ],
   imports: [
     CommonModule,
     PrimeNgModule,
+    ComponentesModule,
   ],
   exports:[
     BasicasComponent,
     MainComponent,
     ArticlesComponent,
+    SubsComponent,
 
   ]
 })

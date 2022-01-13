@@ -3,6 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 
 import { ArticlesComponent } from './lounge/pages/articles/articles.component';
 import { BasicasComponent } from './lounge/pages/basicas/basicas.component';
+import { SubsComponent } from './lounge/pages/subs/subs.component';
 import { MainComponent } from './lounge/pages/main/main.component';
 
 const routes: Routes=[
@@ -18,6 +19,10 @@ const routes: Routes=[
   {
     path: 'articles',
     component: ArticlesComponent,
+  },
+  {
+    path: 'subs',
+    component: SubsComponent,
   },
   {
     path: '**',
