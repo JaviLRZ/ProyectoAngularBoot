@@ -1,5 +1,5 @@
 <div class="SoloM">
-<p-menubar [model]="items" class="" >
+<p-menubar [model]="items" class="" [baseZIndex]="0" >
     <ng-template pTemplate="start">
         <img src="assets/img/logo1.png" height="40" class="p-mr-2 imgMR ">
     </ng-template>
@@ -13,15 +13,7 @@
 <div class="SoloM1">
     <p-menubar [model]="itemsM" class="">
         <ng-template pTemplate="start">
-            <img src="assets/img/logo1.png" height="40" class="p-mr-2 imgMR">
-        </ng-template>
-        <ng-template pTemplate="end">
-            <div class="input-group w-70 HR">
-                <span class="input-group-text" id="basic-addon1">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="dark" class="bi bi-search" viewBox="0 0 16 16"></svg>
-                </span>
-                <input type="search" class="form-control" placeholder="Search..." aria-label="Search">
-            </div>           
+            <img src="assets/img/logo1.png" height="40" class="p-mr-2 imgMR">        
         </ng-template>
     </p-menubar>
 </div>
