@@ -7,6 +7,8 @@ import { MainComponent } from './pages/main/main.component';
 import { ArticlesComponent } from './pages/articles/articles.component';
 import { ComponentesModule } from '../componentes/componentes.module';
 import { SubsComponent } from './pages/subs/subs.component';
+import { LoginComponent } from './pages/login/login.component';
+import { FaqsComponent } from './pages/faqs/faqs.component';
 
 
 
@@ -18,6 +20,8 @@ import { SubsComponent } from './pages/subs/subs.component';
     MainComponent,
     ArticlesComponent,
     SubsComponent,
+    LoginComponent,
+    FaqsComponent,
 
   ],
   imports: [
@@ -30,6 +34,8 @@ import { SubsComponent } from './pages/subs/subs.component';
     MainComponent,
     ArticlesComponent,
     SubsComponent,
+    LoginComponent,
+    FaqsComponent,
 
   ]
 })

@@ -1,27 +1,28 @@
 .p-menubar {
-    border-radius: 0px !important;
+    border-radius: 0px ;
     
 }
 
 @media screen and (max-width: 960px){
 .p-menubar .p-menubar-button {
       display: flex;
-      width: 5rem !important;
-      height: 2.5rem !important;
+      width: 5rem ;
+      height: 2.5rem ;
       color: rgba(255, 255, 255, 0.6);
-      border-radius: 100% !important;
+      border-radius: 100% ;
       transition: background-color 0.2s, color 0.2s, box-shadow 0.2s;
   }
 }
 
 .carousel-control-next, .carousel-control-prev{
-    position: relative !important;
+    position: absolute ;
+    z-index: auto;
 }
 
 @media screen and (max-width: 960px){
     .p-menubar .p-menubar-button:hover {
         color: rgba(255, 255, 255, 0.87);
-        background: none !important;
+        background: none ;
         position: fixed;
         right: 0;
     }

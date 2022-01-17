@@ -5,6 +5,8 @@ import { ArticlesComponent } from './lounge/pages/articles/articles.component';
 import { BasicasComponent } from './lounge/pages/basicas/basicas.component';
 import { SubsComponent } from './lounge/pages/subs/subs.component';
 import { MainComponent } from './lounge/pages/main/main.component';
+import { LoginComponent } from './lounge/pages/login/login.component';
+import { FaqsComponent } from './lounge/pages/faqs/faqs.component';
 
 const routes: Routes=[
   {
@@ -15,6 +17,14 @@ const routes: Routes=[
   {
     path: 'basicas',
     component: BasicasComponent,
+  },
+  {
+    path: 'login',
+    component: LoginComponent,
+  },
+  {
+    path: 'faqs',
+    component: FaqsComponent,
   },
   {
     path: 'articles',

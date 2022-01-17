@@ -61,6 +61,7 @@ export class MenuComponent implements OnInit {
       {
         label: 'FAQs',
         icon: 'pi pi-comment',
+        routerLink: 'faqs'
       },
       {
         icon: 'pi pi-shopping-cart',
@@ -72,7 +73,7 @@ export class MenuComponent implements OnInit {
           {
             label: 'Iniciar Sesion',
             icon: 'pi pi-sign-in',
-            routerLink: 'basicas'
+            routerLink: 'login'
           },
           {
             label: 'Registrarse',
