@@ -9,6 +9,7 @@ import { ComponentesModule } from '../componentes/componentes.module';
 import { SubsComponent } from './pages/subs/subs.component';
 import { LoginComponent } from './pages/login/login.component';
 import { FaqsComponent } from './pages/faqs/faqs.component';
+import { ShoppingCartsComponent } from './pages/shopping-carts/shopping-carts.component';
 
 
 
@@ -22,6 +23,7 @@ import { FaqsComponent } from './pages/faqs/faqs.component';
     SubsComponent,
     LoginComponent,
     FaqsComponent,
+    ShoppingCartsComponent,
 
   ],
   imports: [
@@ -36,6 +38,7 @@ import { FaqsComponent } from './pages/faqs/faqs.component';
     SubsComponent,
     LoginComponent,
     FaqsComponent,
+    ShoppingCartsComponent,
 
   ]
 })

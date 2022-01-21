@@ -31,6 +31,8 @@ registerLocaleData(localeES);
     NgbModule,
     ComponentesModule,
     
+  ],exports:[
+    SharedModule,
   ],
   providers: [
     {provide: LOCALE_ID, useValue: 'es'}

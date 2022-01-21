@@ -65,7 +65,8 @@ export class MenuComponent implements OnInit {
       },
       {
         icon: 'pi pi-shopping-cart',
-        style: {'margin-left': 'auto'}
+        style: {'margin-left': 'auto'},
+        routerLink: 'shopping'
       },
       {
         icon: 'pi pi-user',

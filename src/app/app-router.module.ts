@@ -7,6 +7,7 @@ import { SubsComponent } from './lounge/pages/subs/subs.component';
 import { MainComponent } from './lounge/pages/main/main.component';
 import { LoginComponent } from './lounge/pages/login/login.component';
 import { FaqsComponent } from './lounge/pages/faqs/faqs.component';
+import { ShoppingCartsComponent } from './lounge/pages/shopping-carts/shopping-carts.component';
 
 const routes: Routes=[
   {
@@ -29,6 +30,10 @@ const routes: Routes=[
   {
     path: 'articles',
     component: ArticlesComponent,
+  },
+  {
+    path: 'shopping',
+    component: ShoppingCartsComponent,
   },
   {
     path: 'subs',
